@@ -1,0 +1,9 @@
+version: '3'
+services:
+  https:
+    image: nginx:mainline
+    ports:
+    - 5000:5000
+    volumes:
+      - "./nginx/nginx.conf:/etc/nginx/nginx.conf"
+      - "./certs/:/usr/share/certs/"
