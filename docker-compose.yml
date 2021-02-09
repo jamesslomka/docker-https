@@ -3,7 +3,7 @@ version: '3'
 services:
 
   https:
-    image: nginx:mainline-alpinee
+    image: nginx:mainline-alpine
     ports:
     - 5000:5000
     volumes:
