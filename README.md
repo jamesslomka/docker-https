@@ -8,6 +8,8 @@ nginx reverse proxy to support https for your docker containers
 
 * `brew install mkcert`
 
+* `mkcert -install`
+
 * `mkcert localhost 127.0.0.1`
 
 2. Replace the generated `localhost+1-key.pem` and `localhost+1.pem` in the `certs` directory
