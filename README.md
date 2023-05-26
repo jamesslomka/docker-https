@@ -18,6 +18,6 @@ nginx reverse proxy to support https for your docker containers
 
 4. Add the service to your `docker-compose.yml`
 
-https://github.com/jamesslomka/docker-https/blob/a4cc3d18f57aaa3126d80ed1466b17263250d59c/docker-compose.yml#LL5C2-L11C37
+    https://github.com/jamesslomka/docker-https/blob/ad7aed779bfbcdb4acf14e975e9ce3b14dffa22e/docker-compose.yml#L5-L11
 
 5. `docker-compose up -d https`
