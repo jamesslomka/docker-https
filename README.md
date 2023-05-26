@@ -16,4 +16,8 @@ nginx reverse proxy to support https for your docker containers
 
 3. Update `proxy_pass` in `nginx/nginx.conf` to whichever docker namespace your service is using (ensure you also update the port it exposes)
 
-4. `docker-compose up -d https`
+4. Add the service to your `docker-compose.yml`
+
+https://github.com/jamesslomka/docker-https/blob/a4cc3d18f57aaa3126d80ed1466b17263250d59c/docker-compose.yml#LL5C2-L11C37
+
+5. `docker-compose up -d https`
